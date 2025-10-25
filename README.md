@@ -53,7 +53,7 @@
 ## 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
+  <img src="https://github.com/SitharaGJ/SitharaGJ/blob/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake Animation" />
 </p>
 
 
