@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake (Dark Theme)
 
 on:
   schedule:
@@ -9,13 +9,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation
+      - name: Generate dark snake contribution grid
         uses: Platane/snk@v3
         with:
           github_user_name: SitharaGJ
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake-dark.svg
+          palette: "#0d1117 #161b22 #238636 #3fb950 #56d364"  # dark bg + green tones
 
-      - name: Push snake animation to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
